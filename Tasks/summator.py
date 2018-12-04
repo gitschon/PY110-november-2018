@@ -23,7 +23,7 @@ def is_inp_correct(l):
     return True
 
 
-def my_sumf(input):
+def sum(input):
     """
 
     :param input:
@@ -48,7 +48,7 @@ def avg(input):
     if not is_inp_correct(input):
         raise SummatorError("На вход был подан массив с некорректными данными")
 
-    my_avg = my_sumf(input) / len(input)
+    my_avg = sum(input) / len(input)
 
     return my_avg
 
